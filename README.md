@@ -26,3 +26,13 @@ git commit -m "Descreve a mudança"
 git push -u origin minha-branch
 # abrir o Pull Request no GitHub e dar merge
 ```
+
+## Commits co-autorados
+
+Para dar crédito a quem colaborou no mesmo commit, adicione um trailer no fim da mensagem:
+
+```text
+Co-authored-by: Nome <email@exemplo.com>
+```
+
+O GitHub mostra os dois avatares no commit e no Pull Request.
