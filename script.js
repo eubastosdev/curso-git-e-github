@@ -1,1 +1,6 @@
-console.log('primeira versão!');
+const sucesso = true
+while(sucesso){
+  continueTentando()
+}
+
+console.log("Sucesso...");
